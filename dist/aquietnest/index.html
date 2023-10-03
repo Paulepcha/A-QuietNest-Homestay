@@ -1,0 +1,554 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>QuietNestHomestay</title>
+  <!-- CUSTOM CSS -->
+  <link rel="stylesheet" href="css/style.css">
+  <!-- GOOGLE FONTS -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Alkatra:wght@600&family=Caveat:wght@700&family=Poppins:wght@300&display=swap"
+    rel="stylesheet">
+  <!-- FONT---CDN -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- swiper js cdn link -->
+  <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+</head>
+
+<body>
+  <!-- -------------------------------------------------------HEADER------------------------------------------------------- -->
+
+  <header class="header">
+
+    <a href="#" class="logo"> <img src="assets/loggo.png" alt="logo">A Quiet Nest Homestay</a>
+
+    <nav class="navbar">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <div class="dropdown"><span class="dropdown-span">Rooms</span>
+        <div class="dropdown-content">
+          <p><a href="white.html">White Room</a></p>
+          <p><a href="yellow.html">Yellow Room</a></p>
+          <p><a href="blue.html">Blue Room</a></p>
+          <p><a href="purple.html">Purple Room</a></p>
+          <p><a href="guest.html">Green Room</a></p>
+        </div>
+      </div>
+      <a href="activities.html">Activities</a>
+      <a href="gallery.html">Gallery</a>
+      <a href="contact.html">Contact</a>
+      <a href="https://www.airbnb.co.in/rooms/48762845?source_impression_id=p3_1688047777_jAn%2BWKSZwTuD9qK2" class="bookbtn">Book Now</a>
+    </nav>
+
+    <div id="menu-btn" class="fas fa-bars"></div>
+  </header>
+
+  <!-- -------------------------------------------------------HEADER--END----------------------------------------------------- -->
+
+  <!-- HOME----------------------------------------------SECTION-------------------------------------------START -->
+
+  <section class="home-video" id="home">
+
+    <video autoplay loop muted plays-inline class="back-video">
+      <source src="media/try.mp4">
+    </video>
+
+    <h1>A QUIET NEST TRAVELLERS: HOMESTAY AND CAFE</h1>
+
+  </section>
+
+  <!-- HOME----------------------------------------------SECTION-------------------------------------------END -->
+
+  <!-- -------------------------------------------------------AVAILABILITY---START------------------------------------------------------ -->
+
+  <section class="availability">
+
+    <form action="https://formsubmit.co/paullep550@gmail.com" method="POST">
+
+      <div class="box">
+        <p>Check in <span>*</span></p>
+        <input type="date" class="input" name="Arival-Date">
+      </div>
+
+      <div class="box">
+        <p>Check out <span>*</span></p>
+        <input type="date" class="input" name="Departure-Date">
+      </div>
+
+      <div class="box">
+        <p>Adults <span>*</span></p>
+        <select name="adults" id="" class="input">
+          <option value="1">1 adults</option>
+          <option value="2">2 adults</option>
+          <option value="3">3 adults</option>
+          <option value="4">4 adults</option>
+          <option value="5">5 adults</option>
+          <option value="6">6 adults</option>
+        </select>
+      </div>
+
+      <div class="box">
+        <p>Children <span>*</span></p>
+        <select name="child" id="" class="input">
+          <option value="1">No child</option>
+          <option value="2">1 child</option>
+          <option value="3">2 child</option>
+          <option value="4">3 child</option>
+          <option value="5">4 child</option>
+          <option value="6">5 child</option>
+        </select>
+      </div>
+
+      <div class="box">
+        <p>Rooms <span>*</span></p>
+        <select name="rooms" id="" class="input">
+          <option value="White room">White room</option>
+          <option value="Yellow room">Yellow room</option>
+          <option value="Blue room">Blue room</option>
+          <option value="Purple room">Purple room</option>
+          <option value="Green room">Green room</option>
+          <!-- <option value="6">6 room</option> -->
+        </select>
+      </div>
+
+      <div class="box">   
+        <label for="name"><p>Name <span>*</span></p></label>
+        <input type="text" id="name" name="name" class="input">
+      </div>
+          <!-- Email field -->
+          <div class="box">
+          <label for="email"><p>Email <span>*</span></p></label>
+          <input type="email" id="email" name="email" class="input">
+      </div>
+
+    <input type="hidden" name="_next" value="http://127.0.0.1:5501/dist/aquietnest/thankyou.html">
+      <input type="submit" value="check availability" class="bookbtn">
+
+      <input type="hidden" name="_captcha" value="false">
+      <input type="hidden" name="_template" value="table">
+  
+    </form>
+
+
+  </section>
+
+  <!-- -------------------------------------------------------AVAILABILITY---END------------------------------------------------------ -->
+
+  <!-- ABOUT----------------------------------------------SECTION-------------------------------------------START -->
+
+  <section class="home-about">
+
+    <div class="home-about-img-boxes">
+
+      <img src="assets/about-bg.jpg">
+
+    </div>
+
+    <div class="home-about-boxes">
+
+      <h1>About Us</h1>
+
+      <p>Discover the real Darjeeling with a stay at our cozy home near Gorkha Stadium in Lebong. Our location offers
+        breathtaking mountain views and pleasant weather, making it the perfect retreat for those seeking a peaceful
+        escape from the busy market area.
+        <br>
+        <br>
+        At our home, we take pride in serving our guests with special hand-made Darjeeling tea, adding an authentic
+        touch to your experience. We also provide free Wi-Fi. Home made nepali thali for lunch/dinner on request .
+        Choose us for a unique and tranquil getaway that lets you soak in the beauty of Darjeeling while staying
+        connected to the world.
+      </p>
+
+      <!-- <button class="more"><a href="about.html">More</a></button> -->
+      <a href="about.html" class="bookbtn">More</a>
+
+    </div>
+
+  </section>
+
+  <!-- ABOUT----------------------------------------------SECTION-------------------------------------------END -->
+
+  <!-- SERVICE----------------------------------------------SECTION-------------------------------------------START -->
+
+  <section class="services">
+
+    <h1>Our Services</h1>
+    <p>we pride ourselves in making your stay truly memorable, with well-appointed rooms and modern facilities to suit
+      your needs..</p>
+
+    <div class="aminities-container">
+      <div class="aminities-content">
+        <img src="assets/wifii.png">
+        <h2>Free WIFI</h2>
+      </div>
+
+      <div class="aminities-content">
+        <img src="assets/trekking.png">
+        <h2>Trek & Tour</h2>
+      </div>
+
+      <div class="aminities-content">
+        <img src="assets/terrace.png">
+        <h2>Terrace & Balcony</h2>
+      </div>
+
+      <div class="aminities-content">
+        <img src="assets/living-room.png">
+        <h2>Living Room</h2>
+      </div>
+
+      <div class="aminities-content">
+        <img src="assets/washing-machine.png">
+        <h2>Washing Machine On Paid</h2>
+      </div>
+    </div>
+
+  </section>
+
+  <!-- SERVICE----------------------------------------------SECTION-------------------------------------------end -->
+  <!-- -------------------------------------------------------ROOMS---START------------------------------------------------------ -->
+
+  <section class="room" id="room">
+
+    <h1 class="heading">Rooms</h1>
+
+    <div class="swiper room-slider">
+
+      <div class="swiper-wrapper">
+
+        <div class="swiper-slide slide">
+          <div class="image">
+            <span class="price">900/night</span>
+            <img src="yellowwRoom/yellowroom6.jpg" alt="img">
+           
+          </div>
+          <div class="content">
+            <h3>Yellow Room</h3>
+            <p>Sunny yellow room haven, inviting warmth for a delightful homestay experience.</p>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+            <a href="https://www.airbnb.co.in/rooms/48762845?source_impression_id=p3_1688047777_jAn%2BWKSZwTuD9qK2" class="bookbtn">Book Now</a>
+          </div>
+        </div>
+
+        <div class="swiper-slide slide">
+          <div class="image">
+            <span class="price">1000/night</span>
+            <img src="assets/Blue.png" alt="img">
+          
+          </div>
+          <div class="content">
+            <h3>Blue Room</h3>
+            <p>Tranquil blue room retreat, perfect for a peaceful homestay experience.</p>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+            <a href="https://www.airbnb.co.in/rooms/48762845?source_impression_id=p3_1688047777_jAn%2BWKSZwTuD9qK2" class="bookbtn">Book Now</a>
+          </div>
+        </div>
+
+        <div class="swiper-slide slide">
+          <div class="image">
+            <span class="price">1200/night</span>
+            <img src="Whiteee room/whiteroom3.jpg" alt="img">
+          
+          </div>
+          <div class="content">
+            <h3>White Room</h3>
+            <p>Serene white room oasis, ideal for a relaxing homestay getaway.</p>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+            <a href="https://www.airbnb.co.in/rooms/48762845?source_impression_id=p3_1688047777_jAn%2BWKSZwTuD9qK2" class="bookbtn">Book Now</a>
+          </div>
+        </div>
+
+        <div class="swiper-slide slide">
+          <div class="image">
+            <span class="price">800/night</span>
+            <img src="PurpleRoom/purple2.jpg" alt="img">
+           
+          </div>
+          <div class="content">
+            <h3>Purple Room</h3>
+            <p>Luxurious purple room escape, indulgence awaits in this homestay sanctuary.</p>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+            <a href="https://www.airbnb.co.in/rooms/48762845?source_impression_id=p3_1688047777_jAn%2BWKSZwTuD9qK2" class="bookbtn">Book Now</a>
+          </div>
+        </div>
+
+        <div class="swiper-slide slide">
+          <div class="image">
+            <span class="price">1000/night</span>
+            <img src="Green room/greenroom2.jpg" alt="img">
+          
+          </div>
+          <div class="content">
+            <h3>Green Room</h3>
+            <p>"Relax in a serene green room, a peaceful oasis for guests.</p>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+            <a href="https://www.airbnb.co.in/rooms/48762845?source_impression_id=p3_1688047777_jAn%2BWKSZwTuD9qK2" class="bookbtn">Book Now</a>
+          </div>
+        </div>
+<!-- 
+        <div class="swiper-slide slide">
+          <div class="image">
+            <span class="price">$1200/night</span>
+            <img src="assets/white.png" alt="img">
+            <a href="#" class="fas fa-shopping-cart"></a>
+          </div>
+          <div class="content">
+            <h3>Room Name</h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente nisi.</p>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+            <a href="#" class="bookbtn">Book Now</a>
+          </div>
+        </div>  -->
+
+      </div>
+
+      <div class="swiper-pagination"></div>
+
+    </div>
+
+  </section>
+
+  <!-- -------------------------------------------------------ROOMS---END------------------------------------------------------ -->
+
+  <!-- --------------------------------------------------------ROOFTOP-CAFE-START---------------------------------------------- -->
+
+  <section class="rooftop">
+
+    <h1>Rooftop Open Air Cafe</h1>
+    <p>Experience elevated dining and breathtaking views at our rooftop open-air cafe. A perfect blend of ambiance and
+      culinary delight</p>
+    <div class="rooftop-wrapper">
+      <div class="rooftop-img1">
+
+        <img src="assets/cafee.webp">
+
+        <div class="roof-head">
+          <h2>Dining Area</h2>
+        </div>
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- --------------------------------------------------------ROOFTOP-CAFE-END---------------------------------------------- -->
+
+    <!-- --------------------------------------------------------kanchenjanga--START---------------------------------------------- -->
+
+    <div class="kanchenjanga">
+
+      <h1>kanchenjanga View</h1>
+
+      <div class="kanchenjanga-wrapper">
+        <img src="assets/kankanchung.PNG" alt="img">
+      </div>
+
+    </div>
+
+      <!-- --------------------------------------------------------kanchenjanga---END---------------------------------------------- -->
+
+
+  <!-- -------------------------------------------------------REVIEW---START------------------------------------------------------ -->
+
+  <section class="container" id="review">
+
+    <div class="contents-wraper">
+
+      <div class="testi">
+        <h1>What Our Clients Say</h1>
+      </div>
+
+      <div class="testRow">
+
+        <div class="testItem active">
+          <img src="assets/celine.webp" alt="img">
+          <h3>Celina</h3>
+
+          <p>Sahil and his family opened their home in August 2021. They immediately put us at ease. It is a
+            ray of sunshine, warm, friendly, caring, super responsive and very professional. He has
+            solutions for everything. The view from the terrace is breathtaking! The food is delicious.
+            Lebong is a peaceful, safe Darjeeling neighborhood and the neighbors are lovely. The 15-minute
+            shared taxi ride from the Market is easy without too much waiting. This place is perfect if you
+            are looking for the warmth of a fireplace away from the hustle and bustle of the city. Loved our
+            stay! You can go there without a second thought.</p>
+        </div>
+
+        <div class="testItem">
+          <img src="assets/arnab.webp" alt="img">
+          <h3>Arnab</h3>
+
+          <p>I was looking for a calm place far away from the hustle of the city. Sahil's place perfectly
+            matched my expectations.
+            It was a homely feeling. The warmth of love, delicious foods, friendly nature impressed me a
+            lot. Will surely come back here.</p>
+        </div>
+
+        <div class="testItem">
+          <img src="assets/aparna.webp" alt="img">
+          <h3>Aparna</h3>
+
+          <p>This is indeed a quiet nest, away from the bubbling touristy crowd and offers gorgeous views
+            from the rooftop terrace. Sahil and his family are wonderful and kind beings. I got sick during
+            my stay and they helped me a lot for which I am thankfull.
+            Make sure to enjoy the home-cooked meal by Sahil's mom, its simply amazing. My parents are very
+            picky when it comes to food and they just loved it! Had a great time chitchating with the entire
+            family. Oh and the highlight of our stay is definitely the super-friendly adorable furry
+            pupper🐾</p>
+        </div>
+
+        <div class="testItem">
+          <img src="assets/chandra.webp" alt="img">
+          <h3>Chandra</h3>
+
+          <p>Sahil and his family have been extremely warm and hospitable. You’ll not feel you’re meeting any
+            strangers. They’ll make you feel at home. From the moment you enter to the moment you exit,
+            you’ll be attended to very well and given special attention. Sahil shared his numerous travel
+            experiences and shared a lot about his culture and traditions. It is a very laid back place and
+            the host is very flexible.If you want a place that is peaceful and away from the city hustle
+            bustle, this is a perfect place. The food cooked by Aunty(Sahil’s mother) was very tasty. You’ll
+            not miss home food at all. When you leave, they perform a very touching gesture of handing you a
+            white traditional cloth and give good wishes and blessings for your future. The price point at
+            which this experience came was worth more than every penny!!!</p>
+        </div>
+
+        <div class="testItem">
+          <img src="assets/deep.webp" alt="img">
+          <h3>Deep</h3>
+
+          <p>I have stayed here for one month. It was one of the greatest experience I witnessed in my life.
+            Everyone in the family is very nice. It has become my family for that entire month. That place
+            itself is very beautiful and you will get all kind of facilities there. I am already missing
+            them. Will go back again and again.</p>
+        </div>
+
+      </div>
+
+      <div class="indicators">
+        <div class="dot active" attr='0' onclick="switchTest(this)"></div>
+        <div class="dot" attr='1' onclick="switchTest(this)"></div>
+        <div class="dot" attr='2' onclick="switchTest(this)"></div>
+        <div class="dot" attr='3' onclick="switchTest(this)"></div>
+        <div class="dot" attr='4' onclick="switchTest(this)"></div>
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- -------------------------------------------------------REVIEW---END------------------------------------------------------ -->
+
+
+  <!-- -------------------------------------------------------INSTA---START------------------------------------------------------ -->
+
+  <div class="insta-wrapper">
+
+    <h1>Instagram</h1>
+    <h2>Photos</h2>
+
+    <div class="insta-container">
+      <div class="insta-content">
+        <img src="assets/trek1.jpg" alt="">
+        <a href="https://www.instagram.com/aquietnest_travellers_homestay/" target="_blank""><i class="fa-brands fa-instagram fa-5x"></i></a>
+      </div>
+      <div class="insta-content">
+        <img src="assets/trek3.jpg" alt="">
+        <a href="https://www.instagram.com/aquietnest_travellers_homestay/" target="_blank""><i class="fa-brands fa-instagram fa-5x"></i></a>
+      </div>
+      <div class="insta-content">
+        <img src="assets/trek5.jpg" alt="">
+        <a href="https://www.instagram.com/aquietnest_travellers_homestay/" target="_blank""><i class="fa-brands fa-instagram fa-5x"></i></a>
+      </div>
+      <div class="insta-content">
+        <img src="assets/trek7.jpg" alt="">
+        <a href="https://www.instagram.com/aquietnest_travellers_homestay/" target="_blank""><i class="fa-brands fa-instagram fa-5x"></i></a>
+      </div>
+      <div class="insta-content">
+        <img src="assets/trek13.jpg" alt="">
+        <a href="https://www.instagram.com/aquietnest_travellers_homestay/" target="_blank""><i class="fa-brands fa-instagram fa-5x"></i></a>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- -------------------------------------------------------INSTA---END------------------------------------------------------ -->
+
+  <!-----------------------------------------------FOOTER-------------------------------------------START -->
+
+  <footer class="footer">
+  
+          <div class="footer-social">
+            <a href="https://www.facebook.com/profile.php?id=100077254100857&mibextid=nW3QTL" target="_blank" class="fab fa-facebook-f"></a>
+              <a href="https://www.instagram.com/aquietnest_travellers_homestay/" target="_blank" class="fab fa-instagram"></a>
+              <a href="https://youtu.be/k0pNby9J-go" target="_blank" class="fab fa-youtube"></a>
+              <a href="https://wa.link/417v16" target="_blank" class="fab fa-whatsapp"></a>
+          </div>
+
+          <h1>Whatsapp Us: +91 6290327711</h1>
+          <h1>Email: aquietnest@gmail.com</h1>
+
+        <div class="credit"><h1>&copy;A Quiet Nest : Traveller Homestay And Cafe All right reserved </h1>
+          <h2>design by <a href="https://wa.me/8250066356?text=Need%20a%20website%20for%20my%20business.%F0%9F%98%80%20Kindly%20send%20me%20the%20quotation." target="_blank">Paul</a></h2>
+        </div>
+
+  </footer>
+
+  <!-----------------------------------------------FOOTER-------------------------------------------END -->
+
+  <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+  <script src="main.js"></script>
+  <!-- <script>
+    let popup = document.getElementById('popup');
+    function openPopup(){
+        popup.classList.add("open-popup");
+    }
+
+    function closePopup(){
+        popup.classList.remove("open-popup");
+    }
+
+</script> -->
+</body>
+
+</html>
